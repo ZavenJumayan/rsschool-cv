@@ -42,9 +42,9 @@ Seeking an opportunity where I can develop my skills further and contribute to i
 ### Education
 - **Bachelor’s Degree in Computer Science** - Polytechnic University (2029)
 - **Online Courses**:
-  - JavaScript Basics - [_Js_](https://javascript.info/)
-  - Responsive Web Design - freeCodeCamp
-  - Git & GitHub - Rs school
+  - **JavaScript Basics** - [_Js_](https://javascript.info/)
+  - **Responsive Web Design** - freeCodeCamp
+  - **Git & GitHub** - Rs school
 
 ---
 
