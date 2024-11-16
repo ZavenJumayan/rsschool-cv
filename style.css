@@ -1,23 +1,23 @@
-/* General body styles */
+
 body {
     height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align items at the top of the screen */
-    align-items: center; /* Horizontally center content */
-    font-family: Arial, sans-serif; /* Set a default font */
+    justify-content: flex-start; 
+    align-items: center; 
+    font-family: Arial, sans-serif; 
 }
 
-/* Remove default list styles from <ul> */
+
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-/* Address section: link styles */
+
 address ul li a {
     text-decoration: none;
     color: inherit;
@@ -33,7 +33,6 @@ address ul li a:visited {
     text-decoration: underline;
 }
 
-/* Preformatted text box for code */
 pre {
     border: 1px solid #ccc;
     padding: 10px;
@@ -44,12 +43,12 @@ pre {
     margin: 20px 0;
 }
 
-/* Styles for skills section */
+
 .skills h2 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-/* Project section and link styling */
+
 .projects h2, .projects a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
@@ -60,12 +59,12 @@ pre {
     text-decoration: underline;
 }
 
-/* Education section */
+
 .education h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* Center content inside header, main, and sections */
+
 main {
     max-width: 800px;
     width: 100%;
@@ -73,21 +72,51 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; /* Ensure text inside is centered */
+    text-align: center; 
 }
 
-/* Optional: Styling for header */
+
 header {
     margin-bottom: 20px;
 }
 
-/* Optional: Styling for each section for spacing */
+
 section {
     margin-bottom: 30px;
 }
 
-/* Specific styling for each h2 in the sections */
+
 section h2 {
     font-weight: bold;
     margin-bottom: 10px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-content div {
+    margin: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+.course-logo{
+    max-width: min-content;
+    max-height: fit-content;
 }
