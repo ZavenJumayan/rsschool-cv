@@ -1,5 +1,5 @@
 body {
-    background: rgba(255, 255, 255, 0.5) url(/Img/pexels-iriser-1090977.jpg);
+    background: rgba(255, 255, 255, 0.5) url(Img/pexels-iriser-1090977.jpg);
     height: 100%;
     margin: 0;
     padding: 0;
@@ -132,7 +132,7 @@ nav ul button:hover{
 }
 
 .profile-sidebar {
-    background-image: url(/Img/pexels-iriser-1090977.jpg);
+    background-image: url(Img/pexels-iriser-1090977.jpg);
     position: fixed;
     top: 0;
     left: 0;
