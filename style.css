@@ -1,15 +1,15 @@
-
 body {
+    background: rgba(255, 255, 255, 0.5) url(/Img/pexels-iriser-1090977.jpg);
     height: 100%;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; 
-    align-items: center; 
-    font-family: Arial, sans-serif; 
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color:  #FFFF00;;
 }
-
 
 ul {
     list-style: none;
@@ -17,10 +17,9 @@ ul {
     margin: 0;
 }
 
-
 address ul li a {
     text-decoration: none;
-    color: inherit;
+    color:  #FFFF00;    ;
 }
 
 address ul li a:hover {
@@ -29,25 +28,22 @@ address ul li a:hover {
 }
 
 address ul li a:visited {
-    color: gray;
+    color: #F5F5DC;
     text-decoration: underline;
 }
 
 pre {
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #f9f9f9;
-    overflow: auto;
-    width: min-content;
-    height: min-content;
-    margin: 20px 0;
+    background-color: #333;
+    color: #F5F5DC;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    overflow-x: auto;
 }
-
 
 .skills h2 {
     font-family: 'Courier New', Courier, monospace;
 }
-
 
 .projects h2, .projects a {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -59,11 +55,9 @@ pre {
     text-decoration: underline;
 }
 
-
 .education h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 
 main {
     max-width: 800px;
@@ -72,24 +66,22 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center; 
+    text-align: center;
 }
-
 
 header {
     margin-bottom: 20px;
 }
 
-
 section {
     margin-bottom: 30px;
 }
-
 
 section h2 {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 footer {
     background-color: #333;
     color: #fff;
@@ -116,7 +108,93 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-.course-logo{
+
+.course-logo {
     max-width: min-content;
     max-height: fit-content;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:80px;
+    font-family: 'Courier New', Courier, monospace;
+    background-: inherit;
+}
+nav ul button{
+    background-color: inherit;
+    border-radius: 15px;
+    color: aquamarine;
+}
+nav ul button:hover{
+    background-color: gray;
+}
+
+.profile-sidebar {
+    background-image: url(/Img/pexels-iriser-1090977.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    overflow-y: auto;
+}
+
+.profile-sidebar img {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile-sidebar h3 {
+    width: auto;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.profile-sidebar p {
+    font-size: 14px;
+    color: #916262;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer .course-logo img {
+    width: 50px;
+    height: 40px;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .profile-sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    footer .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav{
+        display: none;
+    }
 }
